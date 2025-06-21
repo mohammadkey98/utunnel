@@ -46,7 +46,7 @@ install_monitorbot() {
 
     # Download
     echo -e "${YELLOW}Downloading MonitorBot package...${NC}"
-    if ! wget -O "$TEMP_ARCHIVE" "https://raw.githubusercontent.com/Royal-Script/utunnel/refs/heads/main/monitorbot.tar.gz"; then
+    if ! wget -O "$TEMP_ARCHIVE" "https://raw.githubusercontent.com/mohammadkey98/utunnel/refs/heads/main/monitorbot.tar.gz"; then
         echo -e "${RED}Error: Download failed${NC}"
         exit 1
     fi
